@@ -20,9 +20,14 @@ const Header = () => {
       </Box>
 
 
-      <Box mr={10}>
+      <Box mr={10} >
         <p>Marketplace</p>
       </Box>
+
+      <Box mr={10} border='1px' borderColor='gray.200' px={5} py={2}>
+        <p>Play Now</p>
+      </Box>
+
 
       <Spacer />
 
