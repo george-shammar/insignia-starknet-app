@@ -175,3 +175,13 @@ body {
   color: #bd8d4c;
 }
 
+.argent {
+  background-image: url('../assets/argent.jpg');
+  /* width: 50%; */
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  height: 100px;
+  size: 200px;
+  
+}
+
