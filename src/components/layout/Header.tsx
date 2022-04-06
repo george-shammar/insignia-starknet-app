@@ -28,7 +28,7 @@ const Header = () => {
 
       
         <Box mr={10} border='1px' borderColor='gray.200' px={5} py={2} borderRadius='10px' background={'#bd8d4c'}>
-          <Link href="/play">Play Now</Link>
+          <Link href="/setup">Play Now</Link>
         </Box>
       
       

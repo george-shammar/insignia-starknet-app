@@ -5,17 +5,34 @@ import Link from "next/link";
 
 const Play = () => {
   return (
-    <div className="play">
+    
 
     
     <Box align="center">
+
+
+
+    <div className="play">
+
+
+    <div className='d-flex steps px-5 pt-5 font-meridian'>
+      
+      
+      
+      
+      
+      
+      
+   </div>
+
+
 
         <Heading as="h1" size='2xl' mr={10}>
           <h1 className="pt-5 head">CREATE GAME ASSET</h1>
         </Heading>
 
         <Box maxW={800}>
-          <div className="border py-5 mt-5 shadow-lg rounded-3 height">
+          <div className="border py-5 mt-5 shadow-lg rounded-3 wallet-space height">
            
 
               <div>
@@ -33,24 +50,16 @@ const Play = () => {
         </Box>
        
 
-
-
-                      
-        {/* <Box mb={8} maxW={800} w="full" h="full" d="flex" flexDirection="column" align="center"> */}
-          {/* <SomeText /> */}
-          {/* <Box flex="1 1 auto">  */}
-            {/* <Transactions /> */}
-             {/* <MintTokens /> */}
-          {/* </Box>
-        </Box> */}
         <Box maxW={200}>
           <div className="font-meridian rounded-pill mb-0 mt-5 py-2">
               <Link href="/download">Download Insignia</Link>
           </div>
           
         </Box>
+
+        </div>
     </Box>
-    </div>
+
     
   );
 };
