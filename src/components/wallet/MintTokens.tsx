@@ -60,7 +60,15 @@ const MintTokens = () => {
           >
             {CONTRACT_ADDRESS}
           </Link>
+
+          
+
         </Code>
+
+        <Link>
+            Buy Asset In The Marketplace
+          </Link>
+
         {connected && (
           <Button
             my={4}
@@ -70,7 +78,8 @@ const MintTokens = () => {
             }}
           >
             Mint Insignia Asset
-          </Button>
+          </Button>  
+
         )}
         {!connected && (
           <Box
@@ -80,7 +89,7 @@ const MintTokens = () => {
             borderRadius={4}
           >
             <Box fontSize={textSize}>
-              Connect to ArgentX Wallet to get started.
+              Connect to ArgentX Wallet to start playing.
             </Box>
           </Box>
         )}
