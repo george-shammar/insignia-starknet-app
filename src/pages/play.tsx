@@ -16,7 +16,24 @@ const Play = () => {
 
 
     <div className='d-flex steps px-5 pt-5 font-meridian'>
-      
+        <Link href="/setup">
+          <div >
+              <p className='step-figure hightlighted py-2 rounded'>1</p>
+              
+              <p className='mt-3'>Wallet Set up</p>
+          
+          </div>
+        </Link>
+
+        <p className='line'>__________</p>
+
+        <Link href="/token" >
+          <div>
+
+              <p className='step-figure two py-2 rounded'>2</p>
+              <p className='mt-3'>Get Insignia Token</p>
+            </div>
+        </Link>
       
       
       
