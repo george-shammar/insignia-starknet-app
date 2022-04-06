@@ -24,7 +24,7 @@ const Play = () => {
                 <h6 className="bold my-3 action font-meridian">Mint A Game Asset</h6>
               </div>
               
-              <MintTokens />
+             <Box align="center"><MintTokens /></Box> 
                             
           </div>
         </Box>

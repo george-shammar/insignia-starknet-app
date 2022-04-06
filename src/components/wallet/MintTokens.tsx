@@ -46,12 +46,12 @@ const MintTokens = () => {
       Create Game Asset
       </Text> */}
       <Box d="flex" flexDirection="column">
-        <Text>Insignia Contract Address:</Text>
-        <Code marginTop={4} w="fit-content">
+        {/* <Text>Insignia Contract Address:</Text>
+        <Code marginTop={4} w="fit-content"> */}
           {/* {`${CONTRACT_ADDRESS.substring(0, 4)}...${CONTRACT_ADDRESS.substring(
             CONTRACT_ADDRESS.length - 4
           )}`} */}
-          <Link
+          {/* <Link
             isExternal
             textDecoration="none !important"
             outline="none !important"
@@ -63,14 +63,13 @@ const MintTokens = () => {
 
           
 
-        </Code>
+        </Code> */}
 
-        <Link>
-            Buy Asset In The Marketplace
-          </Link>
+       
 
         {connected && (
           <Button
+          
             my={4}
             w="fit-content"
             onClick={() => {
@@ -83,7 +82,7 @@ const MintTokens = () => {
         )}
         {!connected && (
           <Box
-            backgroundColor={colorMode === "light" ? "gray.200" : "gray.500"}
+            // backgroundColor={colorMode === "light" ? "gray.200" : "gray.500"}
             padding={4}
             marginTop={4}
             borderRadius={4}
