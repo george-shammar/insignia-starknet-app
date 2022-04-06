@@ -25,7 +25,7 @@ const Download = () => {
             
         <p className='line'>__________</p>
           
-        <Link to="/GetToken" className='child'>
+        <Link href="/token" className='child'>
           <div>
 
               <p className='step-figure two py-2 rounded'>2</p>
@@ -43,7 +43,7 @@ const Download = () => {
 
         <p className='line'>__________</p>
 
-        <Link to="/DownloadGame" className='child'> 
+        <Link href="/download" className='child'> 
             <div>
               <p className='step-figure highlighted4 py-2 rounded'>4</p>
               <p className='mt-3'>Download & Play</p> 

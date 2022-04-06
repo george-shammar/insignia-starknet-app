@@ -5,6 +5,9 @@ import Link from "next/link";
 
 const Play = () => {
   return (
+    <div className="play">
+
+    
     <Box align="center">
 
         <Heading as="h1" size='2xl' mr={10}>
@@ -41,12 +44,13 @@ const Play = () => {
           {/* </Box>
         </Box> */}
         <Box maxW={200}>
-          <div className="mt-5 border rounded-pill py-2">
+          <div className="font-meridian rounded-pill mb-0 mt-5 py-2">
               <Link href="/download">Download Insignia</Link>
           </div>
           
         </Box>
     </Box>
+    </div>
     
   );
 };
