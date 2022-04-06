@@ -28,11 +28,11 @@ const FirstComponent = () => {
        
         
     </div>
-      <div>
+      <Box align="center">
         <a href="https://getinsignia.gitbook.io/whitepaper/" target="_blank"  rel="noreferrer">
           <p className="font-meridian white enter rounded-pill mt-3 py-2">Whitepaper</p>
         </a>
-      </div>
+      </Box>
     </div>
   )
  
@@ -50,11 +50,11 @@ const SecondComponent = () => (
       
     
       </div>
-      <div>
+      <Box align="center">
         <a href="https://getinsignia.gitbook.io/whitepaper/" target="_blank"  rel="noreferrer">
           <p className="font-meridian white enter rounded-pill mt-3 py-2 center">Whitepaper</p>
         </a>
-      </div>
+      </Box>
   </div>
   
   
