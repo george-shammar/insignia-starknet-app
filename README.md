@@ -82,6 +82,22 @@ You may also see any lint errors in the console.
 
 Upon launching the application, go to "Play Now".
 
+### Step 1: Wallet Set-up
+- Insignia lives on the Argent X protocol. For first time Argent X users, click "Get Argent X Wallet", otherwise, proceed to the next tab.
+
+### Step 2: Get Insignia Token.
+- Fund your wallet
+
+### Step 3a: Create Game Asset
+- Each game asset is a unique NFT stored on IPFS. Click "Connect Wallet" to link your Argent X Wallet. 
+- Click "Create" to mint a unique NFT.
+
+### Step 3b: Marketplace
+- An alternative is to purchase a Game Asset in the Marketplace.
+
+### Step 4: Download and Play
+Currently, a very limited edition of the Free-To-Play model of the game is available on PC. Android and IOS release is coming soon.
+
 
 
 
