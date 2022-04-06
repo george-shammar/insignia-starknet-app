@@ -15,9 +15,7 @@ const FirstComponent = () => {
   return (
     <div className="bckg">
     <div className="front animate__animated animate__fadeIn">
-      {/* <video  muted loop id="myVideo" >
-        <source src="https://screenrec.com/share/I2Eqlgntob"  type="video/mp4" />
-      </video> */}
+      
       
   
   
@@ -38,11 +36,9 @@ const FirstComponent = () => {
 };
 
 const SecondComponent = () => (
-  <div>
+  <div className="bckg2">
       <div className="frame animate__animated animate__fadeIn second">
-      {/* <video autoPlay="autoplay"  muted loop id="myVideo" >
-        <source src={secondVideo}  type="video/mp4" />
-      </video> */}
+      
 
       <div className="overlay">
         <p className="title-three white font-medieval">OWN, RENT $ BORROW UNIQUE NFTs </p>

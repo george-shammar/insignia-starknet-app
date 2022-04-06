@@ -117,3 +117,12 @@ body {
   background-size: cover;
   opacity: 0.5;
 }
+
+.bckg2 {
+  background-image: url('../assets/battle-scene.jpg');
+  background-color: #0c0c0b;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.5;
+}
