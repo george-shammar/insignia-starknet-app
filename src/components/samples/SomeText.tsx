@@ -33,9 +33,10 @@ const SomeText = () => {
           marginTop={4}
           borderRadius={4}
         >
-          <Box fontSize={textSize}>Connect your wallet to interact!</Box>
+          <Box fontSize={textSize}>Connect </Box>
         </Box>
       )}
+
     </>
   );
 };
