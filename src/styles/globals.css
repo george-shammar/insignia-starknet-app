@@ -12,3 +12,99 @@ body {
 .height {
   height: 50vh;
 }
+
+.enter {
+  position: relative;
+  bottom: 20vh;
+  cursor: pointer;
+  border: solid;
+  border-color: #bd8d4c;
+  text-align: center;
+  width: 15%;
+  text-decoration: none;
+}
+
+.font-roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
+.enter:hover {
+  background-color: #bd8d4c;
+}
+
+.title-one {
+  font-size: 5em;
+  line-height: 1.2;
+  position: relative;
+  top: 300px;
+  width: 100%;
+  text-align: center;
+}
+
+.title-three {
+  font-size: 5em;
+  line-height: 1.2;
+  position: relative;
+  top: 300px;
+  width: 100%;
+  text-align: center;
+}
+
+.title-two {
+  font-size: 2rem;
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  top: 320px;
+}
+/* 
+.heading {
+  position: absolute;
+  top: 200px;
+  left: 1%;
+}   */
+
+.front {
+  height: 100vh;
+  position: relative;
+}
+
+/* .box {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.7;
+} */
+
+.overlay {
+  /* z-index: 9; */
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100vh;
+}
+
+#myVideo {
+  position: absolute;
+  /* right: 0;
+  bottom: 0; */
+  width: 100%;
+  opacity: 0.7;
+  /* height: 100%; */
+}
+
+.second {
+  height: 100vh;
+  position: relative;
+}
+
+.white {
+  color: white;
+}
+
+
+.animate__animated.animate__fadeIn {
+  --animate-duration: 5s;
+}

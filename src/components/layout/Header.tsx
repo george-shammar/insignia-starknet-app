@@ -18,7 +18,7 @@ const Header = () => {
       </Heading>
 
       <Box  mr={10}>
-        <p><a href="https://getinsignia.gitbook.io/whitepaper/" target="_blank" rel="noreferrer" className="px-4 white">Whitepaper</a></p>
+        <p><a href="https://getinsignia.gitbook.io/whitepaper/" target="_blank" rel="noreferrer" className="px-4">Whitepaper</a></p>
       </Box>
 
 
