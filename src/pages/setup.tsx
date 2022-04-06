@@ -1,7 +1,8 @@
 import { Box, Heading, Link } from "@chakra-ui/react";
+// import logo from '../assets/argent.jpg';
 
 
-const Token = () => {
+const Setup = () => {
   return (
     <Box  align="center">
           
@@ -131,4 +132,4 @@ const Token = () => {
   );
 };
 
-export default Token;
+export default Setup;
