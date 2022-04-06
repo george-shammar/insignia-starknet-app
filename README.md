@@ -60,33 +60,36 @@ cd directory
 ```
 Directory is the name of your folder.
 
-
-## Developing
-
-Clone the repository
-
-```bash
-git clone git@github.com:a5f9t4/cairopal.git
-cd cairopal
+- Once you have the local copy in your desired folder, go back to your terminal and run:
 ```
-
-Install Dependencies
-
-```bash
 yarn
 ```
+This command installs all the dependencies of the application.
 
-Run locally
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-```bash
+- To start the application, run :
+```
 yarn dev
-```
+``` 
+This command runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-#### Run tests
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-```bash
-yarn test
-```
+## Usage
+
+Upon launching the application, go to "Play Now".
+
+
+
+
+
+
+
+
+
 
 ## Acknowledgements
 
