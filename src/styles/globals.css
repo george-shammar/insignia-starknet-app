@@ -8,3 +8,12 @@ body {
 #__next {
   height: 100%;
 }
+
+.font-meridian {
+  font-family: 'Merienda', cursive;
+}
+
+.font-medieval {
+  font-family: 'MedievalSharp', cursive;
+}
+

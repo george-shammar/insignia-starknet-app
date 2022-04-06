@@ -6,6 +6,10 @@ import Link from "next/link";
 const Play = () => {
   return (
     <div>
+
+                      <h2 className="className='font-meridian near-wallet pt-5">Create Game Asset</h2>
+                        <p>Select an asset category below and mint one or purchase one in the marketplace to start playing</p>
+                      
         {/* <Box mb={8} maxW={800} w="full" h="full" d="flex" flexDirection="column" align="center">
           <SomeText />
           <Box flex="1 1 auto"> */}
