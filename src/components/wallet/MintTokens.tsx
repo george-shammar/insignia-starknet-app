@@ -43,7 +43,7 @@ const MintTokens = () => {
   return (
     <Box>
       <Text as="h2" marginTop={4} fontSize="2xl">
-        Mint Test Tokens
+      Create Game Asset
       </Text>
       <Box d="flex" flexDirection="column">
         <Text>Test Token Contract:</Text>
@@ -69,7 +69,7 @@ const MintTokens = () => {
               mintTokens();
             }}
           >
-            Mint Tokens
+            Mint Insignia Asset
           </Button>
         )}
         {!connected && (
@@ -80,7 +80,7 @@ const MintTokens = () => {
             borderRadius={4}
           >
             <Box fontSize={textSize}>
-              Connect your wallet to mint test tokens.
+              Connect to ArgentX Wallet to get started.
             </Box>
           </Box>
         )}

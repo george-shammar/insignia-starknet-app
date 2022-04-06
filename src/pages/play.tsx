@@ -5,10 +5,10 @@ import { MintTokens, Transactions } from "components/wallet";
 const Play = () => {
   return (
     <div>
-        <Box mb={8} w="full" h="full" d="flex" flexDirection="column">
+        <Box mb={8} maxW={800} w="full" h="full" d="flex" flexDirection="column" align="center">
           <SomeText />
           <Box flex="1 1 auto">
-            <Transactions />
+            {/* <Transactions /> */}
             <MintTokens />
           </Box>
         </Box>
