@@ -133,3 +133,11 @@ body {
   margin: auto;
   
 }
+
+.steps {
+  width: 50%;
+  justify-content: space-around;
+  align-content: center;
+  align-self: center;
+  margin: auto;
+}
