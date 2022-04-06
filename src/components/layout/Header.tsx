@@ -7,26 +7,25 @@ import { WalletConnect } from "components/wallet";
 
 const Header = () => {
   return (
-    <Flex as="header" width="full" align="center">
+    
+    
+    <Flex as="header" width="full" align="center" >
       
-      <Heading as="h1" size="md">
+      <Heading as="h1" size="md" mr={10}>
         <Link href="/">INSIGNIA</Link>
       </Heading>
 
-      <Spacer />
-
-      <div>
+      <Box  mr={10}>
         <p><a href="https://getinsignia.gitbook.io/whitepaper/" target="_blank" rel="noreferrer" className="px-4 white">Whitepaper</a></p>
-      </div>
+      </Box>
 
-      <Spacer />
 
-      <div>
+      <Box mr={10}>
         <p>Marketplace</p>
-      </div>
+      </Box>
 
       <Spacer />
-          
+
       <Box marginLeft="auto">
         <ThemeToggle />
         <WalletConnect />
