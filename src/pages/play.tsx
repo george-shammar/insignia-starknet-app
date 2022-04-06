@@ -41,7 +41,10 @@ const Play = () => {
           {/* </Box>
         </Box> */}
         <Box>
-          <Link href="/download">Download Insignia</Link>
+          <div className="mt-5 border rounded-pill py-2">
+              <Link href="/download">Download Insignia</Link>
+          </div>
+          
         </Box>
     </Box>
     
