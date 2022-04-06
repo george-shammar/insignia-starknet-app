@@ -46,7 +46,7 @@ const MintTokens = () => {
       Create Game Asset
       </Text>
       <Box d="flex" flexDirection="column">
-        <Text>Test Token Contract:</Text>
+        <Text>Insignia Asset Contract:</Text>
         <Code marginTop={4} w="fit-content">
           {/* {`${CONTRACT_ADDRESS.substring(0, 4)}...${CONTRACT_ADDRESS.substring(
             CONTRACT_ADDRESS.length - 4
