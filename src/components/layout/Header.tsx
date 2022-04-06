@@ -26,9 +26,12 @@ const Header = () => {
         <p>Marketplace</p>
       </Box>
 
-      <Box mr={10} border='1px' borderColor='gray.200' px={5} py={2} borderRadius='10px' background='#086F83'>
-        <Link href="/play">Play Now</Link>
-      </Box>
+      
+        <Box mr={10} border='1px' borderColor='gray.200' px={5} py={2} borderRadius='10px' background={'#bd8d4c'}>
+          <Link href="/play">Play Now</Link>
+        </Box>
+      
+      
 
 
       <Spacer />
