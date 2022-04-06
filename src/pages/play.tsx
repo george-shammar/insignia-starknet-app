@@ -5,10 +5,10 @@ import Link from "next/link";
 
 const Play = () => {
   return (
-    <div>
+    <Box align="center">
 
-                      <h2 className="className='font-meridian near-wallet pt-5">Create Game Asset</h2>
-                        <p>Select an asset category below and mint one or purchase one in the marketplace to start playing</p>
+                      <p className="font-meridian pt-5">Create Game Asset</p>
+                        
                       
         {/* <Box mb={8} maxW={800} w="full" h="full" d="flex" flexDirection="column" align="center">
           <SomeText />
@@ -20,7 +20,7 @@ const Play = () => {
         <Box>
           <Link href="/download">Download Insignia</Link>
         </Box> */}
-    </div>
+    </Box>
     
   );
 };
