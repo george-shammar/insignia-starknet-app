@@ -34,8 +34,23 @@ const Play = () => {
               <p className='mt-3'>Get Insignia Token</p>
             </div>
         </Link>
+
+        <p className='line'>__________</p>
+
+        <div>
+              <p className='step-figure highlighted3 py-2 rounded'>3</p>
+              <p className='mt-3'>Create Game Asset</p>
+        </div>
+        
+
+      <p className='line'>__________</p>
       
-      
+      <Link href="/download" > 
+            <div>
+              <p className='step-figure py-2 rounded'>4</p>
+              <p className='mt-3'>Download & Play</p> 
+            </div>
+        </Link>
       
       
       
