@@ -45,7 +45,7 @@ const MintTokens = () => {
       {/* <Text as="h2" marginTop={4} fontSize="2xl">
       Create Game Asset
       </Text> */}
-      <Box d="flex" flexDirection="column">
+      <Box >
         {/* <Text>Insignia Contract Address:</Text>
         <Code marginTop={4} w="fit-content"> */}
           {/* {`${CONTRACT_ADDRESS.substring(0, 4)}...${CONTRACT_ADDRESS.substring(
@@ -70,13 +70,14 @@ const MintTokens = () => {
         {connected && (
           <Button
           
-            my={4}
-            w="fit-content"
+            // my={4}
+            // w="fit-content"
+            maxW={200}
             onClick={() => {
               mintTokens();
             }}
           >
-            Mint Insignia Asset
+            Create
           </Button>  
 
         )}
