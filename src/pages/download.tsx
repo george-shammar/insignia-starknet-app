@@ -14,7 +14,7 @@ const Download = () => {
 
 
         <div className='d-flex steps px-5 pt-5 font-meridian'>
-        <Link href="/download">
+        <Link href="/setup">
           <div >
               <p className='step-figure hightlighted py-2 rounded'>1</p>
               
@@ -35,7 +35,7 @@ const Download = () => {
           
         <p className='line'>__________</p>
 
-        <Link to="/CreateAsset" className='child'> <div>
+        <Link href="/play" className='child'> <div>
               <p className='step-figure py-2 rounded'>3</p>
               <p className='mt-3'>Create Game Asset</p>
             </div>
