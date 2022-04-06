@@ -13,6 +13,9 @@ const Play = () => {
             <MintTokens />
           </Box>
         </Box>
+        <Box>
+          <Link href="/download">Download Insignia</Link>
+        </Box>
     </div>
     
   );
