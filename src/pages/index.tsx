@@ -20,7 +20,7 @@ const FirstComponent = () => {
   
   
         <div className="overlay">
-          <h1 className="title-one white font-medieval">INSIGNIA</h1>
+          <h1 className="title-one gold font-medieval">INSIGNIA</h1>
           <h2 className="title-two white">THE MILITARY STRATEGY GAME THAT PAYS TO PLAY</h2>
         </div>
         
@@ -41,7 +41,7 @@ const SecondComponent = () => (
       
 
       <div className="overlay">
-        <p className="title-three white font-medieval">OWN, RENT $ BORROW UNIQUE NFTs </p>
+        <p className="title-three gold font-medieval">OWN, RENT $ BORROW UNIQUE NFTs </p>
         {/* <p className="title-two white">A NEW WORLD OF PLAY-TO-EARN</p> */}
       </div>
       
