@@ -65,7 +65,7 @@ const Download = () => {
         <Heading as="h1" size='2xl' mr={10}>
           <h1 className="pt-5 head">GET INSIGNIA</h1>
         </Heading>
-          <p className='white mt-3'>Select your preferred platform below.... Have Fun!!</p>
+          <p className=' mt-3'>Select your preferred platform below.... Have Fun!!</p>
          
         </div>
         <div className='platform'>
