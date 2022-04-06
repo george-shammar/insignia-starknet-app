@@ -81,7 +81,7 @@ body {
 
 .overlay {
   /* z-index: 9; */
-  background: rgba(0, 0, 0, 0.5);
+  background: rgb(0, 0, 0);
   width: 100%;
   height: 100vh;
 }
@@ -107,4 +107,13 @@ body {
 
 .animate__animated.animate__fadeIn {
   --animate-duration: 5s;
+}
+
+.bckg {
+  background-image: url('../assets/rider.jpg');
+  background-color: #0c0c0b;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.5;
 }

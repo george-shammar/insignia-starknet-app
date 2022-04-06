@@ -1,6 +1,7 @@
 import { Box } from "@chakra-ui/react";
 import 'animate.css';
-import React, { Component } from "react";
+import React, { Component, useRef } from "react";
+// import bike from "../assets/firstVideo.mp4";
 
 // import SomeText from "components/samples/SomeText";
 // import { MintTokens, Transactions } from "components/wallet";
@@ -10,11 +11,12 @@ const SECOND_PAGE = '15_SECONDS';
 
 const FirstComponent = () => {
   
+  
   return (
-    <div>
+    <div className="bckg">
     <div className="front animate__animated animate__fadeIn">
-      {/* <video autoPlay="autoplay"  muted loop id="myVideo" >
-        <source src={firstVideo}  type="video/mp4" />
+      {/* <video  muted loop id="myVideo" >
+        <source src="https://screenrec.com/share/I2Eqlgntob"  type="video/mp4" />
       </video> */}
       
   
