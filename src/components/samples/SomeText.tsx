@@ -18,7 +18,7 @@ const SomeText = () => {
   return (
     <>
       <Heading as="h2" fontSize="3xl">
-        Hello,{" "}
+        Player:{" "}
         {account
           ? `${account.substring(0, 4)}...${account.substring(
               account.length - 4
@@ -28,12 +28,12 @@ const SomeText = () => {
 
       {!account && (
         <Box
-          backgroundColor={colorMode === "light" ? "gray.200" : "gray.500"}
+          // backgroundColor={colorMode === "light" ? "gray.200" : "gray.500"}
           padding={4}
           marginTop={4}
           borderRadius={4}
         >
-          <Box fontSize={textSize}>Connect </Box>
+          <Box fontSize={textSize}>Connect your ArgentX Wallet to get started</Box>
         </Box>
       )}
 
