@@ -8,7 +8,9 @@ import { WalletConnect } from "components/wallet";
 const Header = () => {
   return (
     
-    
+    <Box borderBottom='1px' pb={5}>
+
+  
     <Flex as="header" width="full" align="center" >
       
       <Heading as="h1" size="md" mr={10}>
@@ -25,7 +27,7 @@ const Header = () => {
       </Box>
 
       <Box mr={10} border='1px' borderColor='gray.200' px={5} py={2}>
-        <Link href="/">Play Now</Link>
+        <Link href="/play">Play Now</Link>
       </Box>
 
 
@@ -36,6 +38,7 @@ const Header = () => {
         <WalletConnect />
       </Box>
     </Flex>
+    </Box>
   );
 };
 
