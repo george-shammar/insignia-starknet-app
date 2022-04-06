@@ -63,8 +63,15 @@ const Setup = () => {
                         </p>
             </article>
 
-
-            <p className="argent mt-5"></p>
+            <div className="container">
+                <p className="mt-5 argent"></p>
+            </div>
+              
+            
+              
+              
+        
+            
 
             {/* <Image src={'../assets/argent.jpg' as any} alt="" className="near-logo"/> */}
 

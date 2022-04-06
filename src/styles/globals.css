@@ -176,7 +176,7 @@ body {
 }
 
 .argent {
-  background-image: url('../assets/argent.jpg');
+  background-image: url('../assets/argent2.png');
   /* width: 50%; */
   background-repeat: no-repeat;
   /* background-size: cover; */
@@ -185,3 +185,6 @@ body {
   
 }
 
+.container {
+  
+}
