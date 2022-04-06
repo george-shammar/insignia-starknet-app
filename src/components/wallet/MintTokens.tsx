@@ -8,10 +8,14 @@ import {
   useColorMode,
 } from "@chakra-ui/react";
 import { stark } from "starknet";
+import React, { useEffect, useState } from "react";
 
 import { useStarknet } from "context";
 
 const MintTokens = () => {
+  const [status, setStatus] = useState("");
+  const [link, setLink] = useState("");
+
   const CONTRACT_ADDRESS =
     "0x06a09ccb1caaecf3d9683efe335a667b2169a409d19c589ba1eb771cd210af75";
 
@@ -35,9 +39,12 @@ const MintTokens = () => {
         "10000000000000000000",
         "0",
       ],
+      
     });
     // eslint-disable-next-line no-console
+    setStatus("Creating your Asset. Please wait... ");
     console.log(mintTokenResponse);
+    setLink("https://bafybeibubx5e4k4ycoag5p54s3lmhnbcbny2ln6drydgj3oomxpzmuqn5a.ipfs.dweb.link/");
   };
 
   return (
@@ -65,7 +72,11 @@ const MintTokens = () => {
 
         </Code> */}
 
-       
+       <p className="light-gold my-3">{status}</p>
+       <p className="light-gold my-3"><a href="https://bafybeibubx5e4k4ycoag5p54s3lmhnbcbny2ln6drydgj3oomxpzmuqn5a.ipfs.dweb.link/" 
+       target="_blank">
+         {link}</a>
+      </p>
 
         {connected && (
           <Button
