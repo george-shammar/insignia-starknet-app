@@ -13,15 +13,16 @@ const Play = () => {
 
         <Box maxW={800}>
           <div className="border py-5 mt-5 shadow-lg">
-            {/* <div className="px-2">
-              <h6 className="bold pb-3 action font-meridian">Mint A Game Asset</h6>
-                
-            </div> */}
+           
 
-                            <div>
-                            <SomeText />
-                            </div>
+              <div>
+                <SomeText />
+              </div>
 
+
+              <div className="px-2">
+                <h6 className="bold my-3 action font-meridian">Mint A Game Asset</h6>
+              </div>
 
                             
           </div>
