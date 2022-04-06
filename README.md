@@ -16,6 +16,51 @@ This project hopes to solve specific problems that have been identified in the b
 [Video-Demo](https://www.loom.com/share/65a2413e3bd1408192da49781fe5146e)
 
 
+For a comprehensive run down about the gameplay, game economics, tokenomics, road map, e.t.c please visit the link below to read the Whitepaper. 
+
+[Whitepaper](https://getinsignia.gitbook.io/whitepaper/)
+
+
+## Tech Stack
+
+### Blockchain
+- StarkNet
+- IPFS (Decentralized storage)
+- Cairo
+
+### Web Application
+- React
+- Javascript
+- Typescript
+- HTML
+- CSS
+- Bootstrap
+
+### Game
+- Unreal Engine
+
+
+## Gettin Started
+
+### To start the application locally
+
+To run a local copy of this application, follow the steps below:
+
+- Go to the "Code" section of this repository and press the green button that says "Code". Copy the URL or the SSH.
+- Go to the terminal and enter:
+```
+git clone https://github.com/george-shammar/insignia-starknet-app.git
+```
+The URL or SSH are the links copied from the step above.
+
+- If you don't have git installed, you can download this project and unzip it.
+- Change directory into the folder the application is saved.
+```
+cd directory
+```
+Directory is the name of your folder.
+
+
 ## Developing
 
 Clone the repository
