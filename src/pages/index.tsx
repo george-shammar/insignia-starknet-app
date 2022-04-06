@@ -1,24 +1,107 @@
 import { Box } from "@chakra-ui/react";
+import 'animate.css';
+import React, { Component } from "react";
+
 // import SomeText from "components/samples/SomeText";
 // import { MintTokens, Transactions } from "components/wallet";
 
-const Home = () => {
+const FIRST_PAGE = '5_SECONDS';
+const SECOND_PAGE = '15_SECONDS';
+
+const FirstComponent = () => {
+  
   return (
     <div>
-
-
-
-
-
-
-
-
-
-
+    <div className="front animate__animated animate__fadeIn">
+      {/* <video autoPlay="autoplay"  muted loop id="myVideo" >
+        <source src={firstVideo}  type="video/mp4" />
+      </video> */}
+      
+  
+  
+        <div className="overlay">
+          <h1 className="title-one white font-medieval">INSIGNIA</h1>
+          <h2 className="title-two white">THE MILITARY STRATEGY GAME THAT PAYS TO PLAY</h2>
+        </div>
         
     </div>
-    
-  );
+      <div>
+        <a href="https://getinsignia.gitbook.io/whitepaper/" target="_blank"  rel="noreferrer">
+          <p className="font-meridian white enter rounded-pill mt-3 py-2 center">Whitepaper</p>
+        </a>
+      </div>
+    </div>
+  )
+ 
 };
+
+const SecondComponent = () => (
+  <div>
+      <div className="frame animate__animated animate__fadeIn second">
+      {/* <video autoPlay="autoplay"  muted loop id="myVideo" >
+        <source src={secondVideo}  type="video/mp4" />
+      </video> */}
+
+      <div className="overlay">
+        <p className="title-three white font-medieval">OWN, RENT $ BORROW UNIQUE NFTs </p>
+        {/* <p className="title-two white">A NEW WORLD OF PLAY-TO-EARN</p> */}
+      </div>
+      
+    
+      </div>
+      <div>
+        <a href="https://getinsignia.gitbook.io/whitepaper/" target="_blank"  rel="noreferrer">
+          <p className="font-meridian white enter rounded-pill mt-3 py-2 center">Whitepaper</p>
+        </a>
+      </div>
+  </div>
+  
+  
+);
+
+
+
+
+
+// const Home = () => {
+//   return (
+    
+    
+//   );
+// };
+
+class Home extends Component {
+
+  state = {
+    currentPage: FIRST_PAGE
+  };
+
+  componentDidUpdate() {
+    const {currentPage} = this.state;
+    const isFirst = currentPage === FIRST_PAGE;
+
+    if (isFirst) {
+      this._showSecondPageDelayed();
+    } else {
+      this._showFirstPageDelayed();
+    }
+  }
+
+  componentDidMount() {
+    this._showSecondPageDelayed();
+  };
+
+  _showSecondPageDelayed = () => setTimeout(() => {this.setState({currentPage: SECOND_PAGE})}, 10000);
+
+  _showFirstPageDelayed = () => setTimeout(() => {this.setState({currentPage: FIRST_PAGE})}, 10000);
+
+  render() {
+    const {currentPage} = this.state;
+    const isFirst = currentPage === FIRST_PAGE;
+    const ComponentToRender =  isFirst ? FirstComponent : SecondComponent;
+
+    return <ComponentToRender/>;
+  }
+}
 
 export default Home;
