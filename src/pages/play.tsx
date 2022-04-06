@@ -12,7 +12,7 @@ const Play = () => {
         </Heading>
 
         <Box maxW={800}>
-          <div className="border py-5 mt-5 shadow-lg">
+          <div className="border py-5 mt-5 shadow-lg rounded-3 height">
            
 
               <div>
@@ -40,7 +40,7 @@ const Play = () => {
              {/* <MintTokens /> */}
           {/* </Box>
         </Box> */}
-        <Box>
+        <Box maxW={200}>
           <div className="mt-5 border rounded-pill py-2">
               <Link href="/download">Download Insignia</Link>
           </div>
