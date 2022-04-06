@@ -68,7 +68,7 @@ const Setup = () => {
 
             {/* <Image src={'../assets/argent.jpg' as any} alt="" className="near-logo"/> */}
 
-            <div>
+            <div className="mt-5">
                     <a href="https://chrome.google.com/webstore/detail/argent-x/dlcobpjiigpikoobohmabehhmhfoodbb" target="_blank"  rel="noreferrer" className="wallet-scroll white font-meridian rounded-pill mb-0 mt-5 py-2 px-5">Get Argent X</a>
             </div>
         </div>
