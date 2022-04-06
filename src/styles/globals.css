@@ -122,3 +122,14 @@ body {
 .gold {
   color: #fc9a11;
 }
+
+.wallet-scroll {
+  cursor: pointer;
+  border: solid;
+  border-color: #bd8d4c;
+  background-color: #bd8d4c;
+  text-align: center;
+  width: 12%;
+  margin: auto;
+  
+}
