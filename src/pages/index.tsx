@@ -22,7 +22,10 @@ const FirstComponent = () => {
         <div className="overlay">
           <h1 className="title-one gold font-medieval">INSIGNIA</h1>
           <h2 className="title-two white">THE MILITARY STRATEGY GAME THAT PAYS TO PLAY</h2>
+         
         </div>
+
+       
         
     </div>
       <div>

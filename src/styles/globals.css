@@ -111,6 +111,14 @@ body {
   opacity: 0.5;
 }
 
+.cloak {
+  background-image: url('../assets/cloak-bg.png');
+  background-color: #0c0c0b;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .gold {
   color: #bd8d4c;
 }
