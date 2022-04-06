@@ -33,7 +33,7 @@ const SomeText = () => {
           marginTop={4}
           borderRadius={4}
         >
-          <Box fontSize={textSize}>Connect your ArgentX Wallet to get started</Box>
+          {/* <Box fontSize={textSize}>Connect your ArgentX Wallet to get started</Box> */}
         </Box>
       )}
 

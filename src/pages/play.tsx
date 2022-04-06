@@ -23,7 +23,8 @@ const Play = () => {
               <div className="px-2">
                 <h6 className="bold my-3 action font-meridian">Mint A Game Asset</h6>
               </div>
-
+              
+              <MintTokens />
                             
           </div>
         </Box>
@@ -33,7 +34,7 @@ const Play = () => {
 
                       
         <Box mb={8} maxW={800} w="full" h="full" d="flex" flexDirection="column" align="center">
-          <SomeText />
+          {/* <SomeText /> */}
           <Box flex="1 1 auto"> 
             {/* <Transactions /> */}
              {/* <MintTokens /> */}
