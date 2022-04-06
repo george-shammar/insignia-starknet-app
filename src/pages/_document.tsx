@@ -11,7 +11,7 @@ import * as React from "react";
 
 import createEmotionCache from "styles/createEmotionCache";
 
-const APP_NAME = "cairopal";
+const APP_NAME = "Insignia";
 
 class MyDocument extends Document {
   static async getInitialProps(ctx: DocumentContext) {
@@ -72,7 +72,8 @@ class MyDocument extends Document {
           <link rel="shortcut icon" href="/app-icon.png" /> */}
           <link rel="manifest" href="/manifest.json" />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
-          <link />
+          <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap" rel="stylesheet"/>
+          <title>Insigina</title>
         </Head>
         <body>
           <Main />
