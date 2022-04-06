@@ -1,4 +1,4 @@
-import { Box, Flex, Link, Text } from "@chakra-ui/react";
+import { Box, Flex, Link, Text, Spacer } from "@chakra-ui/react";
 
 const Footer = () => {
   return (
@@ -8,6 +8,16 @@ const Footer = () => {
           Insignia
         </Box>
         {new Date().getFullYear()}
+
+       
+
+        <Box mx={10}>
+          <a href="https://discord.gg/A4xfZENW2Z" target="_blank" rel="noreferrer">Discord</a>
+        </Box>
+
+        <Box>
+          <a href="https://twitter.com/Insignia_verse?s=03" target="_blank" rel="noreferrer">Twitter</a>
+        </Box>
         
       </Text>
     </Flex>
