@@ -149,10 +149,19 @@ Peering is done randomly and the reward mechanism also utilizes a no-loss mechan
 ## Developer
 
 
+👤 **George Gbenle**
 
+- GitHub: [george-shammar](https://github.com/george-shammar)
+- Twitter: [@GeorgeShammar](https://twitter.com/GeorgeShammar)
+- LinkedIn: [George Gbenle](https://www.linkedin.com/in/georgegbenle/)
 
+## 🤝 Contributing
 
+Contributions, issues and feature requests are welcome!
 
+## Show your support
+
+Give a ⭐️ if you like this project!
 
 
 ## Acknowledgements
